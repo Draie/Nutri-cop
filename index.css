@@ -1,0 +1,91 @@
+
+
+
+
+
+html{
+
+  
+    background-color: beige;
+    max-width:max-content ;
+    
+}
+
+
+
+
+                            .Nav-bar{
+                                display: flex;
+                                align-items: center;
+
+
+                            }
+
+
+                                            .logo-nutri img {
+
+                                                width: 150px;
+                                                height: 150px;
+
+                                            }
+
+
+
+
+
+
+
+                main {
+                      
+                    display: flex;
+                   
+                }
+                                            
+                        .heroBanner img {
+                           display: flex;
+                        min-width: 400px;
+                        min-height: 350px;
+                        max-width: 1000px;
+                        max-height: 95%;
+                       justify-self:center;
+                    }
+
+                        .missionCard{
+
+                            display: grid;
+                           
+                        
+                        }
+                        .missionCard p {
+                        
+                            align-self: center;
+                            font-weight: bold;
+                            font-size: larger;
+                            max-width: 30%;
+                        }
+
+                        .missionCard img{
+
+                            height: 250px;
+                            width: 300px;
+                        }
+
+                            .missionCard1{
+
+                                display: flex;
+
+                            }
+
+                            
+                            .missionCard2{
+
+                                display: flex;
+                            }
+
+                            
+                            .missionCard3{
+
+                                display: flex;
+                            }
+
+            
