@@ -3,23 +3,21 @@
 
 
 
-html{
 
-  
-    background-color: beige;
-    max-width:max-content ;
-    
-    
-}
 
 
     body p{
         font-family:  'Roboto', sans-serif;
-    }
+    }                   
+
+
+                           
 
                             .Nav-bar{
                                 display: flex;
                                 align-items: center;
+                                
+                                
 
 
                             }
@@ -40,25 +38,27 @@ html{
 
 
 
-
-                main {
+            
+              main {
                       
-                    display: block;
+                    
+                min-height: auto;
+                 min-height: 80%;
                  
                    
                 }
-                                            
+                
                         .heroBanner img {
-                           display: grid;
-                           
+
+                        display: grid;  
                         min-width: 400px;
                         min-height: 350px;
                         max-width: 90%;
                         max-height: 90%;
-                       margin-left: 5%;
-                       border-radius: 15px;
-                       margin-bottom: 3%;
-                       opacity: 0.8;
+                        margin-left: 5%;
+                        border-radius: 15px;
+                        margin-bottom: 3%;
+                        opacity: 0.8;
                     }
 
                     h3{
@@ -66,30 +66,57 @@ html{
                         /*text-align: center; */
                         font-weight: bolder;
                         padding-left: 5%;
-                        margin-bottom: 8%;
+                        margin-bottom:  5em;
                         font-family:  'Roboto', sans-serif;
                         font-weight: 800;
+                        
                     }
+                        
+                        
+                        .missionCard_tittle{
+
+                            padding-bottom: 3em;
+                        }
 
                         .missionCard{
 
-                            display: grid;
-                            margin-top: 5%;
-                            justify-items: center;
-                            gap: 7%;
-                           max-width: 80%;
-                           min-height: 80%;
-                           margin-left: 10%;
-                           text-align: center;
+                                display: grid;
+                                padding-bottom: 2rem;
+                                margin-bottom: 5rem;
+                                padding-bottom: 3rem;
+                                grid-template-rows: 1fr 1fr 1fr;
+                                justify-items: center;
+                                gap: 7%;
+                                max-width: 80%;
+                                margin-left: 10%;
+                                text-align: center;
+                                background-color: #F8F6F5;
+                                border-radius: 30px;
 
-                           
-                        
                         }
+
+                            .presentationCard{
+                                text-align: center;
+                                margin: 10em;
+                            }
+
+                            .secondQuestion{
+                                color: #B49FCC;
+                                font-weight: bold;
+                            }
+                                .miniText{
+                                    font-size: 0.8em;
+                                    font-weight: bold;
+                                    color: gray;
+                                    
+                                }
+
                         .missionCard p {
                         
                             align-self: center;
                             font-weight: bold;
                             font-size: larger;
+                            
                            
                         }
 
@@ -102,15 +129,15 @@ html{
                             max-height: 315px;
                             border-radius: 10px;
                             opacity: 0.8;
+                            margin-left: 15px;
                         }
 
                             .missionCard1{
                                 display: grid;
                                 grid-template-columns: 1fr 1fr;
-                                max-width: 60%;
-                                justify-items: center;
-                                background-color: aquamarine;
-                                border-radius: 15px;
+                                max-width: 70%;
+                                min-height: 100%;
+                               
                                 
 
                             }
@@ -119,9 +146,9 @@ html{
                             .missionCard2{
                                 display: grid;
                                 grid-template-columns: 1fr 1fr;
-                                max-width: 80%;
-                                background-color: aquamarine;
-                                border-radius: 15px;
+                                max-width: 70%;
+                                min-height: 100%;
+                              
                                 
                             }
 
@@ -130,10 +157,55 @@ html{
 
                                 display: grid;
                                 grid-template-columns: 1fr 1fr;
-                                max-width: 80%;
-                                background-color: aquamarine;
-                                border-radius: 15px;
+                                max-width: 70%;
+                                min-height: 100%;
                                 
                             }
 
+
+
+                            footer{
+                                padding: 3%;
+                                padding-left: 5rem;
+                                text-align: left;
+                                background-color:#5D576B ;
+                                min-height: 30%;
+                                font-weight: bold;
+                                color:white;
+                                
+                                
+
+
+                            }
+
+                            footer p{
+                                font-size: 13px;
+                                
+                            }
+                            footer p a{
+                                text-decoration: none;
+                            }
+                                h5{
+                                    font-size: 1,5rem;
+                                }
             
+
+
+                            /* Mobile first*/
+                            
+                            @media (min-width: 100px) and (max-width: 500px) { 
+                                     
+                                    .Nav-bar{
+                                        display: flex;
+                                        flex-direction:column;
+                                    }
+                                   
+                                                  .logo-nutri img {
+        
+                                                        width: 200px;
+                                                        height: 200px;
+                                                      
+        
+                                                    }
+                                    
+                                    }
